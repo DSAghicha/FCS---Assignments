@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+}
+
+body {
+    background-color: #1E1E1E;
+    font-family: "Consolas";
+    h1 {
+        color: #9AA83A;
+    }
+    h2 {
+        color: #676867;
+    }
+    p {
+        color: #D0B33C;
+    }
+    label {
+        color: #6089B4;
+    }
+    input[type=text] {
+        color: #C7444A;
+        background: none;
+        border: none;
+        outline: none;
+        border-bottom: 1px solid #6089B4;
+    }
+    input[type=button] {
+        margin-top: 10px;
+        padding: 5px;
+        background-color: #676867;
+        color: #D0B33C;
+    }
+    span {
+        color: #9AA83A;
+    }
+    hr {
+        color: #000;
+    }
+}

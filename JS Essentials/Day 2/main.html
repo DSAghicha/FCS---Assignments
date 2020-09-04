@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day #2 | LU | JS Essentials</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+
+<body>
+    <h1>Day #2 Assignment</h1>
+    <h2>Question 1</h2>
+    <p>Program to search for a particular character in a string</p>
+    <form action="get" name="q1" id="q1">
+
+        <label for="userString">Enter a String</label><br>
+        <input type="text" name="userString" id="userString"><br>
+        <label for="userChar">Enter Character(s): </label><br>
+        <input type="text" name="userChar" id="userChar"><br>
+        <input type="button" value="Search" onclick="run()">
+        <span id="value_q1"></span>
+    </form>
+    <hr>
+
+    <h2>Question 2</h2>
+    <p>Program to convert minutes to seconds</p>
+    <form action="get" name="q2" id="q2">
+
+        <label for="minutes">Enter Time in Minutes</label><br>
+        <input type="text" name="minutes" id="minutes"><br>
+        <input type="button" value="Convert" onclick="convert()">
+        <span id="value_q2"></span>
+    </form>
+    <hr>
+
+    <h2>Question 3</h2>
+    <p>Program to search for a element in a array of strings</p>
+    <form action="get" name="q3" id="q3">
+
+        <label for="addValue">Enter Cars</label><br>
+        <input type="text" name="addValue" id="addValue">
+        <input type="button" value="ADD" onclick="addCars()"><br>
+        <label for="element">Do I own this Car?</label><br>
+        <input type="text" name="element" id="element"><br>
+        <input type="button" value="Check" onclick="search()">
+        <span id="value_q3"></span>
+    </form>
+    <hr>
+
+    <h2>Question 4</h2>
+    <p>Program to display only elements containing 'a' in them from a array</p>
+    <form action="get" name="q4" id="q4">
+
+        <label for="addValue">Enter Element</label><br>
+        <input type="text" name="addValue" id="addValue">
+        <input type="button" value="ADD" onclick="checkElem()"><br>
+        <input type="button" value="Display" onclick="display()">
+        <span id="value_q4"></span>
+    </form>
+    <hr>
+
+    <h2>Question 5</h2>
+    <p>Print an array in reverse order</p>
+    <form action="get" name="q5" id="q5">
+
+        <label for="addValue">Enter Element</label><br>
+        <input type="text" name="addValue" id="addValue">
+        <input type="button" value="ADD" onclick="addElem()"><br>
+        <input type="button" value="Reverse" onclick="reverseArr()">
+        <span id="value_q5"></span>
+    </form>
+
+
+    <script src="./main.js"></script>
+</body>
+
+
+</html>
