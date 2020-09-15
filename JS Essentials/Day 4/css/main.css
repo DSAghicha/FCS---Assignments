@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin-left: 5px;
+  margin-bottom: 5px;
+  background-color: #1E1E1E;
+  font-family: "Consolas";
+}
+
+body h1 {
+  color: #9AA83A;
+}
+
+body h2 {
+  color: #676867;
+}
+
+body p {
+  color: #9AA83A;
+}
+
+body hr {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  color: #000;
+}
+
+body #myimg {
+  margin-top: 10px;
+}
+
+body button,
+body input[type=button] {
+  margin-top: 10px;
+  padding: 5px;
+  background-color: #676867;
+  color: #D0B33C;
+}
+
+body label {
+  color: #6089B4;
+}
+
+body input[type=text],
+body input[type=number] {
+  color: #C7444A;
+  background: none;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #6089B4;
+}
+
+body .lbl {
+  color: #6089B4;
+  margin-left: 10px;
+}
+
+body #verifybox {
+  display: none;
+}
+/*# sourceMappingURL=main.css.map */

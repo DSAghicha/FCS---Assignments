@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin-left: 5px;
+    margin-bottom: 5px;
+    background-color: #1E1E1E;
+    font-family: "Consolas";
+    h1 {
+        color: #9AA83A;
+    }
+    h2 {
+        color: #676867;
+    }
+    p {
+        color: #9AA83A;
+    }
+    hr {
+        margin-top: 5px;
+        margin-bottom: 5px;
+        color: #000;
+    }
+    #myimg {
+        margin-top: 10px;
+    }
+    button,
+    input[type=button] {
+        margin-top: 10px;
+        padding: 5px;
+        background-color: #676867;
+        color: #D0B33C;
+    }
+    label {
+        color: #6089B4;
+    }
+    input[type=text],
+    input[type=number] {
+        color: #C7444A;
+        background: none;
+        border: none;
+        outline: none;
+        border-bottom: 1px solid #6089B4;
+    }
+    .lbl {
+        color: #6089B4;
+        margin-left: 10px;
+    }
+    #verifybox {
+        display: none;
+    }
+}

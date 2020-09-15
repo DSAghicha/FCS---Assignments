@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment Day 4| LU| JS</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+    <h1>Day 4 Assignment</h1>
+    <h2>Question 1</h2>
+    <p>Create a webpage containing an image and three buttons
+        <br> A. On click of the second button a change the existing image to a new image
+        <br> B. On click of the third button change it once again
+        <br> C. On click of first, the first image should come back</p>
+    <img src="./images/coffee.jpg" alt="coffee" id="myimg" width="300px">
+    <button id="coffee" onclick="swithImage('./images/coffee.jpg')">Coffee</button>
+    <button id="tea" onclick="swithImage('./images/tea.jpg')">Tea</button>
+    <button id="milk" onclick="swithImage('./images/milk.jpg')">Milk</button>
+    <hr>
+
+    <h2>Question 2</h2>
+    <p>Create a webpage containing two input fields and a button.
+        <br> A. Write something in the first input
+        <br> B. On click of the button, the content of input one should be copied in the second input</p>
+    <form id="q2">
+        <label for="details">Please Enter your E-mail Address: </label>
+        <input type="text" name="details" id="details">
+        <br>
+        <input type="button" value="Continue" onclick="verifydetails()"><br>
+        <span id="verifybox">
+            <label for="verify">Verify your e-mail address: </label>
+            <input type="text" name="verify" id="verify">
+            <input type="button" value="Continue"><br>
+        </span>
+    </form>
+    <hr>
+
+    <h2>Question 3</h2>
+    <p>Create an array of objects with objects having the following properties
+        <br> A. {name (string), age (number), country (string), hobbies array (string [])}
+        <br> B. Write a function to display all the objects on the console</p>
+    <form name="q3" id="q3">
+        <label for="uname">Name: </label>
+        <input type="text" name="uname" id="uname"><br>
+        <label for="uage">Age: </label>
+        <input type="text" name="uage" id="uage"><br>
+        <label for="ucountry">Country: </label>
+        <input type="text" name="ucountry" id="ucountry"><br>
+        <label for="uhobbies">Hobbies: </label>
+        <input type="text" name="uhobbies" id="uhobbies"><br>
+        <input type="button" value="Create" onclick="createArray()">
+        <p id="info"></p>
+    </form>
+    <hr>
+
+    <h2>Question 4</h2>
+    <p>Following the 3rd question
+        <br> A. Write a function to display all the objects having age less than 30
+        <br> B. Write a function to display all the objects having country India</p>
+    <form name="q4" id="q4">
+        <label for="checkage">Give Upper Age limit</label>
+        <input type="number" name="checkage" id="checkage"><br>
+        <input type="radio" name="range" id="ran1" value="Less Than"><span class="lbl">Less Than</span><br>
+        <input type="radio" name="range" id="ran2" value="Greater Than"><span class="lbl">Greater Than</span><br>
+        <input type="button" value="Sort Details by Age" onclick="classifyAge()">
+        <br>
+        <label for="info">Select by Country:</label>
+        <input type="text" name="info" id="info">
+        <input type="button" value="Sort Details by Country" onclick="classifyCountry()">
+    </form>
+    <script src="./main.js"></script>
+</body>
+
+</html>
