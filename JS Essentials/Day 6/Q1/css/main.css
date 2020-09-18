@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin-left: 5px;
+  margin-bottom: 5px;
+  background-color: #1E1E1E;
+  font-family: "Consolas";
+}
+
+body h1 {
+  color: #9AA83A;
+}
+
+body h2 {
+  color: #676867;
+}
+
+body p {
+  color: #9AA83A;
+}
+
+body hr {
+  margin-top: 15px;
+  margin-bottom: 5px;
+  color: #000;
+}
+
+body input[type=text],
+body input[type=number] {
+  color: #C7444A;
+  background: none;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #6089B4;
+}
+
+body input[type=button] {
+  margin-top: 10px;
+  padding: 5px;
+  background-color: #676867;
+  color: #D0B33C;
+}
+
+body #q1 {
+  margin-top: 20px;
+}
+
+body #name {
+  margin-bottom: 10px;
+}
+
+body #age,
+body #city,
+body #salary {
+  margin-left: 50px;
+  margin-bottom: 10px;
+}
+
+body #scity {
+  margin-left: 290px;
+}
+
+body #ssrc {
+  margin-left: 380px;
+}
+
+body .uinfo,
+body .businfo {
+  width: 80%;
+  margin-top: 15px;
+  border: 1px solid #676867;
+}
+
+body .uinfo th,
+body .businfo th {
+  color: #C7444A;
+  height: 25px;
+}
+
+body .uinfo td,
+body .businfo td {
+  height: 40px;
+  color: #9AA83A;
+  text-align: center;
+}
+
+body .uinfo td svg,
+body .businfo td svg {
+  fill: #9AA83A;
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+}
+
+body .uinfo td svg:hover,
+body .businfo td svg:hover {
+  width: 45px;
+  height: 45px;
+  -webkit-transition: ease-in-out 500ms;
+  transition: ease-in-out 500ms;
+}
+/*# sourceMappingURL=main.css.map */

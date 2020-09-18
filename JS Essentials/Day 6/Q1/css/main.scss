@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin-left: 5px;
+    margin-bottom: 5px;
+    background-color: #1E1E1E;
+    font-family: "Consolas";
+    h1 {
+        color: #9AA83A;
+    }
+    h2 {
+        color: #676867;
+    }
+    p {
+        color: #9AA83A;
+    }
+    hr {
+        margin-top: 15px;
+        margin-bottom: 5px;
+        color: #000;
+    }
+    input[type=text],
+    input[type=number] {
+        color: #C7444A;
+        background: none;
+        border: none;
+        outline: none;
+        border-bottom: 1px solid #6089B4;
+    }
+    input[type=button] {
+        margin-top: 10px;
+        padding: 5px;
+        background-color: #676867;
+        color: #D0B33C;
+    }
+    #q1 {
+        margin-top: 20px;
+    }
+    #name {
+        margin-bottom: 10px;
+    }
+    #age,
+    #city,
+    #salary {
+        margin-left: 50px;
+        margin-bottom: 10px;
+    }
+    #scity {
+        margin-left: 290px;
+    }
+    #ssrc {
+        margin-left: 380px;
+    }
+    .uinfo,
+    .businfo {
+        width: 80%;
+        margin-top: 15px;
+        border: 1px solid #676867;
+        th {
+            color: #C7444A;
+            height: 25px;
+        }
+        td {
+            height: 40px;
+            color: #9AA83A;
+            text-align: center;
+            svg {
+                fill: #9AA83A;
+                width: 25px;
+                height: 25px;
+                cursor: pointer;
+                &:hover {
+                    width: 45px;
+                    height: 45px;
+                    transition: ease-in-out 500ms;
+                }
+            }
+        }
+    }
+}

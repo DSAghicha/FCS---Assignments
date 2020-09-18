@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment Day 6| Q1| LU| JS</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <h1>Day 6 Assignment</h1>
+    <h2>Question 2</h2>
+    <p>Create a blank array and later on create a add bus functionality bus object contains {name, source,destination, number, passenger capacity}
+        <br> A. A form to add new bus
+        <br> B. Display data in table format
+        <br> C. Search by source and destination
+        <br> D. Data should be stored permanently in localstorage
+    </p>
+    <form name="q2" id="q2">
+        <input type="text" placeholder="Bus Number" name="bno" id="bno" required>
+        <input type="text" placeholder="Bus Name" name="bname" id="bname" required>
+        <input type="text" placeholder="Source" name="bsrc" id="bsrc" required>
+        <input type="text" placeholder="Destination" name="bdest" id="bdest" required>
+        <input type="text" placeholder="Passenger Capacity" name="pascap" id="pascap">
+        <input type="button" value="ADD" id='add'><br>
+        <input type="text" name="ssrc" id="ssrc" placeholder="Search by Source">
+        <input type="text" name="sdest" id="sdest" placeholder="Search by Destination" onkeyup="findbyDest()">
+        <input type="button" name="search" id="search" value="Search">
+    </form>
+    <table class="businfo" cellspacing="0">
+        <thead>
+            <tr>
+                <th>Bus Number</th>
+                <th> Bus Name</th>
+                <th>Bus Source</th>
+                <th>Bus Destination</th>
+                <th>Passenger Capacity</th>
+            </tr>
+        </thead>
+        <tbody class="busChart">
+        </tbody>
+    </table>
+    <script src="./main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment Day 6| Q1| LU| JS</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+    <h1>Day 6 Assignment</h1>
+    <h2>Question 1</h2>
+    <p>Create a array containing five objects with properties { name, age , city , salary }
+        <br> A. Display all the objects in a table
+        <br> B. Create a search functionality for name and city
+        <br> C. Delete button to delete records
+        <br> D. Data is not permanent
+    </p>
+    <form name="q1" id="q1">
+        <input type="text" placeholder="Enter Name" name="name" id="name" required>
+        <input type="number" placeholder="Enter Age" name="age" id="age" required>
+        <input type="text" placeholder="Enter City" name="city" id="city" required>
+        <input type="number" placeholder="Enter Salary" name="salary" id="salary" required>
+        <input type="button" value="ADD" onclick="addUDetails(event)"><br>
+        <input type="text" name="sname" id="sname" placeholder="Search by Name" onkeyup="findbyName()">
+        <input type="text" name="scity" id="scity" placeholder="Search by City" onkeyup="findbyCity()">
+    </form>
+    <table class="uinfo" cellspacing="0">
+        <thead>
+            <tr>
+                <th>Sr No</th>
+                <th>Name</th>
+                <th>Age</th>
+                <th>City</th>
+                <th>Salary</th>
+                <th>Delete</th>
+            </tr>
+        </thead>
+        <tbody class="chartBox">
+        </tbody>
+    </table>
+    <hr>
+    <script src="./main.js"></script>
+</body>
+
+</html>
