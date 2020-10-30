@@ -15,7 +15,7 @@ public class Game {
     Scanner scanner = new Scanner(System.in);
 
     public void initGame() throws FileNotFoundException {
-        File file = new File("src/com/dayfive/questions.txt");
+        File file = new File("src/com/dayfive/questions.txt");  //TODO
         Scanner scan = new Scanner(file);
         while (scan.hasNextLine()) {
             questions.add(scan.nextLine());
@@ -85,7 +85,7 @@ public class Game {
         System.out.println("Which is the correct option?");
         answers.add(scanner.nextInt());
         try {
-            FileWriter my_file = new FileWriter("src/com/dayfive/questions.txt");
+            FileWriter my_file = new FileWriter("src/com/dayfive/questions.txt"); //TODO
             for (int i =0; i < questions.size();i++) {
                 my_file.append(questions.get(i)).append("\n");
                 my_file.append(option1.get(i)).append("\n");
