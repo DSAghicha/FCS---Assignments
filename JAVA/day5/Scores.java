@@ -17,7 +17,7 @@ public class Scores {
 
         // Adding player names and their scores to the list from scores.txt
         try {
-            File file = new File("src/com/dayfive/scores.txt");
+            File file = new File("src/com/dayfive/scores.txt"); //TODO
             Scanner scan = new Scanner(file);
             while (scan.hasNextLine()) {
                 playerName.add(scan.nextLine());
@@ -74,7 +74,7 @@ public class Scores {
     public static void writeScores() {
         System.out.printf( "Your final score is %d.", points.get(playerName.indexOf(player_name)));
         try {
-            FileWriter fileWriter = new FileWriter("src/com/dayfive/scores.txt");
+            FileWriter fileWriter = new FileWriter("src/com/dayfive/scores.txt"); //TODO
             for (int i =0; i < playerName.size();i++) {
                 fileWriter.append(playerName.get(i)).append("\n");
                 fileWriter.append(String.valueOf(points.get(i))).append("\n");
