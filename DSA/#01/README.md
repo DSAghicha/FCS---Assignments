@@ -22,5 +22,5 @@ for (i=1;i<=n;i*=3)
 ```
 ## Solution:
 
-Time Complexity of the code is O(n<sup>2</sup>)
+Time Complexity of the code is O(n)
 
